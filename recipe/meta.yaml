@@ -55,11 +55,12 @@ test:
 
 about:
   home: https://github.com/biometry/bipartite
-  license: GPL
+  license: GPL-2.0-or-later
   summary: "Functions to visualise webs and calculate a series of indices commonly used to describe pattern in (ecological) webs. It focuses on webs consisting of only two levels (bipartite), e.g. pollination webs or predator-prey-webs. Visualisation is important to get an idea of what we are actually looking at, while the\
     \ indices summarise different aspects of the web's topology. "
   license_family: GPL
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
