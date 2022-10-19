@@ -1,4 +1,4 @@
-{% set version = "2.17" %}
+{% set version = "2.18" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bipartite_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bipartite/bipartite_{{ version }}.tar.gz
-  sha256: 58de2edc80ae99c071a4377b35de34400faff05eb73e4ad662771f29f566f751
+  sha256: 9bc0ef99af38412ba7260633a7c2d96782aa966351f6a0bdca2ae0fb93de25d8
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
