@@ -21,6 +21,13 @@ build:
 
 requirements:
   build:
+    - cross-r-base {{ r_base }}  # [build_platform != target_platform]
+    - r-fields                   # [build_platform != target_platform]
+    - r-permute                  # [build_platform != target_platform]
+    - r-vegan                    # [build_platform != target_platform]
+    - r-sna                      # [build_platform != target_platform]
+    - r-igraph                   # [build_platform != target_platform]
+    - r-mass                     # [build_platform != target_platform]
     - {{ compiler('c') }}              # [not win]
     - {{ compiler('m2w64_c') }}        # [win]
     - {{ compiler('cxx') }}            # [not win]
