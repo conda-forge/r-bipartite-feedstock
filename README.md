@@ -3,6 +3,7 @@ About r-bipartite-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bipartite-feedstock/blob/main/LICENSE.txt)
 
+
 About r-bipartite
 -----------------
 
@@ -11,6 +12,7 @@ Home: https://github.com/biometry/bipartite
 Package license: GPL-2.0-or-later
 
 Summary: Functions to visualise webs and calculate a series of indices commonly used to describe pattern in (ecological) webs. It focuses on webs consisting of only two levels (bipartite), e.g. pollination webs or predator-prey-webs. Visualisation is important to get an idea of what we are actually looking at, while the indices summarise different aspects of the web's topology. 
+
 About r-bipartite
 -----------------
 
@@ -167,7 +169,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
