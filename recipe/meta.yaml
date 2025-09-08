@@ -1,4 +1,4 @@
-{% set version = "2.21" %}
+{% set version = "2.22" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bipartite_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bipartite/bipartite_{{ version }}.tar.gz
-  sha256: 9de7954dc4e481f9cb43076a8eb2374f1ffc2c067acf32b38652ba724cca32a4
+  sha256: 5b43fae574778951f6a9b851d4465befe6f8918c9e42095c696a4729b7ef1e22
 
 build:
   number: 0
