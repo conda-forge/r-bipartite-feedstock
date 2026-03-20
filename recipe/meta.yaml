@@ -1,15 +1,15 @@
-{% set version = "2.23" %}
+{% set version = "2.24" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
   name: r-bipartite
-  version: {{ version|replace("-", "_") }}
+  version: "{{ version|replace("-", "_") }}"
 
 source:
   url:
     - {{ cran_mirror }}/src/contrib/bipartite_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bipartite/bipartite_{{ version }}.tar.gz
-  sha256: 2cdab709da3fdd3c3da1b37695f6cde1304f718c4758c845afaca2afde85fd88
+  sha256: 40d2b78b60cec68e81fd154bf3b38197071197ea84501b2c1c8e00089f144cb1
 
 build:
   number: 0
